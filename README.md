@@ -10,3 +10,14 @@ Share links from one browser to another effortlessly.
 *Receive new links directly into your extension.
 
 *Google OAuth authentication means your password is never compromised or stored with a third party service.
+
+![Alt text](http://slickshare.com/Images/Slick1.png "Optional title")
+
+![Alt text](http://slickshare.com/Images/Slick2.png "Optional title")
+
+![Alt text](http://slickshare.com/Images/Slick3.png "Optional title")
+
+![Alt text](http://slickshare.com/Images/Slick4.png "Optional title")
+
+![Alt text](http://slickshare.com/Images/Slick5.png "Optional title")
+
