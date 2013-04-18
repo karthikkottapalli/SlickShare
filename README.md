@@ -3,7 +3,7 @@ SlickShare (Google Chrome Extension)
 
 Share links from one browser to another effortlessly.
 
-*Privately share webpages as you surf with friends and family.
+**Privately share webpages as you surf with friends and family.**
 
 *Send links directly to your contact's browser and email.
 
