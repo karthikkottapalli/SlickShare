@@ -1,4 +1,7 @@
 SlickShare (Google Chrome Extension)
+
+Get your SlickShare Chrome extension here: https://chrome.google.com/webstore/detail/slickshare/adhdcbpjbahiekgjmgbmjmlggmbldnfm
+or you can visit: http://SlickShare.com
 ==========
 
 Share links from one browser to another effortlessly.
