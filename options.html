@@ -1,0 +1,89 @@
+<!doctype html>
+
+<!--
+Copyright (c) 2013, Karthik Kottapalli. All rights reserved.
+
+Redistribution and use in source and binary forms,
+with or without modification, are permitted provided
+that the following conditions are met:
+
+- Redistributions of source code must retain the above copyright notice,
+  this list of conditions and the following disclaimer.
+
+- Any redistribution, use, or modification is done solely for personal 
+  benefit and not for any commercial purpose or for monetary gain.
+
+THIS SOFTWARE IS PROVIDED BY THE PROJECT AND CONTRIBUTORS ''AS IS'' AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED.  IN NO EVENT SHALL THE PROJECT OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE.
+-->
+
+<!--
+Copyright 2011 Google Inc. All Rights Reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<head>
+  <title>SlickShare</title>
+ 
+ <link rel="stylesheet" href="jquery-ui.css" />
+<script src="oauth2/oauth2.js"></script>
+ <script src="jquery.js"></script>
+ <script src="jquery-ui.js"></script>
+ <script src="options.js"></script>
+ <link href="./bootstrap/css/bootstrap.css" rel="stylesheet">
+
+  <style>
+    h1 { font-family: "Comic Sans MS", cursive, sans-serif }
+    button.authorized { font-family: "Comic Sans MS", cursive, sans-serif; background: GreenYellow }
+    p.smspace {margin: 1px 0px;}
+    body
+	{
+	background-color:#f7f7f9;;
+	}
+  </style>
+
+
+</head>
+
+<body>
+	<div id="hide_initial" class="container-fluid">
+	<code><span><i class="icon-envelope"></i>&nbsp;<a href="current link" id="current">current link</a></span></code>
+    <div class="controls">
+		    <div class="input-prepend">
+				<div class="ui-widget">
+				  <label for="tags"></label>
+			  	</div>
+				  <span ><input id="tags" placeholder="Autocomplete: Email"/></span>
+				  <button type="submit" class="btn-small" id="send" style="float: right;">Send  </button>
+				  <img src="./bootstrap/img/greencheck.jpg" height="20" width="20" id="check"></img>
+		    		</div>
+		  		</div>
+		
+		<div id="link_display">
+			
+	    </div>
+	</div>
+  <button id="google" class="btn-small">
+    Login
+  </button>
+</body>

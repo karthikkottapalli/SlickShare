@@ -1,0 +1,28 @@
+{
+  "name": "SlickShare",
+  "version": "1.2",
+  "description": "Share links from one browser to another effortlessly.",
+  "manifest_version": 2,
+  "icons": {
+    "128": "icon128.png"
+  },
+  "browser_action": {
+    "default_title": "SlickShare",
+    "default_icon": "icon128.png",
+    "default_popup": "options.html"
+  },
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": ["http://www.google.com/robots.txt*"],
+      "js": ["oauth2/oauth2_inject.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "https://accounts.google.com/o/oauth2/token",
+    "https://www.google.com/m8/feeds/",
+    "http://*.SlickShare.com/"
+  ]
+}
